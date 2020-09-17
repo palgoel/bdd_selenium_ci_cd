@@ -1,0 +1,10 @@
+{
+  "tckt.py::test_find_flights[Boston-London]": true,
+  "tckt.py::test_find_flights[Mexico City-Dublin]": true,
+  "tckt.py::test_find_flights[Paris-Buenos Aires]": true,
+  "tckt.py::test_find_flights[Philadelphia-Rome]": true,
+  "tckt.py::test_find_flights[Portland-Berlin]": true,
+  "tckt.py::test_find_flights[San Diego-New York]": true,
+  "tckt.py::test_find_flights[Tel Aviv-Dubai]": true,
+  "tckt.py::test_teardown": true
+}
