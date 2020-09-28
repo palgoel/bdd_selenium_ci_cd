@@ -1,6 +1,6 @@
 #!groovy
 node {
-    stage('Build') {
+    stage('Build')  {
         bat 'pip install -r requirements.txt' 
     }	
    stage('Test') {
