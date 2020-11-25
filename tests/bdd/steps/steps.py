@@ -21,4 +21,11 @@ def step_impl(context):
 @step('check for present string')
 def step_impl(context):
     assert "No results found." not in context.driver.page_source
-    context.driver.close()
+
+@step('check for current url')
+def step_impl(context):
+    assert "org" in context.driver.current_url
+
+@step('check for page title')
+def step_impl(context):
+    assert "org" in context.driver.title

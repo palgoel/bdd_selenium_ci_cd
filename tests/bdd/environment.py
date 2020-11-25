@@ -16,3 +16,6 @@ def before_feature(context,feature):
     feature.login_page = LoginPage(context.driver)
     feature.page = feature.login_page
     feature.page.go(URL)
+
+def after_feature(context, feature):
+    context.driver.quit()
